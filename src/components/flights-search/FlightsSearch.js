@@ -32,7 +32,7 @@ export function formatAirport({ name, code, city }) {
 
 function withLoading(setLoading, asyncFunction) {
   setLoading(true);
-  asyncFunction().then((_) => setLoading(false));
+  asyncFunction().then(() => setLoading(false));
 }
 
 function FlightsSearch() {
